@@ -7,6 +7,7 @@ set t_Co=256
 filetype plugin on
 
 " tab support
+set et
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -19,5 +20,10 @@ set number
 " copying and pasting on system clipboard
 set clipboard=unnamed
 set clipboard=unnamedplus
-set paste
 set go+=a
+
+" indentation
+set copyindent
+set preserveindent
+set smartindent
+set autoindent
